@@ -1,0 +1,56 @@
+[
+  {
+    "href": "/milestones",
+    "image": "milestones",
+    "title": "MILESTONES",
+    "subTitles": [
+      "FOUNDATION.",
+      "DEVELOPMENTAL.",
+      "MILESTONES."
+    ],
+    "color": "#fe4e80"
+  },
+  {
+    "href": "/infant-massage",
+    "image": "infant-massage",
+    "title": "INFANT MASSAGE",
+    "subTitles": [
+      "BASIC.",
+      "TOUCH.",
+      "BONDING."
+    ],
+    "color": "#ffc74f"
+  },
+  {
+    "href": "/services",
+    "image": "services",
+    "title": "SERVICES",
+    "subTitles": [
+      "HANDS-ON.",
+      "HOLISTIC.",
+      "INNOVATIVE."
+    ],
+    "color": "#00aeef"
+  },
+  {
+    "href": "/about",
+    "image": "method",
+    "title": "THE METHOD",
+    "subTitles": [
+      "TEACH.",
+      "SUPPORT.",
+      "CHALLENGE."
+    ],
+    "color": "#98c67f"
+  },
+  {
+    "href": "/about",
+    "image": "about-me",
+    "title": "ABOUT ME",
+    "subTitles": [
+      "DO WHAT YOU LOVE.",
+      "LOVE WHAT YOU DO."
+    ],
+    "color": "#444444"
+  }
+]

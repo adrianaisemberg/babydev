@@ -1,0 +1,41 @@
+@import './../vars.scss';
+
+.page-link {
+  font-size: 1em;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4px;
+  padding: 8px;
+  transition: background-color 0.5s ease-in-out;
+  color: $color-blue-1;
+
+  &:hover {
+    background: $color-blue-1-a10;
+  }
+  
+  img {
+    width: 20%;
+    height: 100%;
+    margin-right: 16px;
+  }
+
+  h1 {
+    margin: 0;
+    color: $color-blue-1;
+
+    &.small {
+      font-size: 1.6em;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    opacity: 0.5;
+  }
+
+  @media (max-width: $max-mobile-width) {
+    margin: 0 8px;
+  }
+}

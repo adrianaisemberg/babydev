@@ -1,0 +1,46 @@
+[
+  {
+    "title": "PRIVATE: ONE ON ONE",
+    "duration": "60 MINUTES",
+    "description": "Mauris in aliquam sem fringilla ut. Arcu dui vivamus arcu felis bibendum ut tristique.",
+    "prices": [
+      "$80 weekday",
+      "$90 weekday"
+    ]
+  },
+  {
+    "title": "INFANT MASSAGE",
+    "duration": "3x60 MINUTES",
+    "description": "Mauris in aliquam sem fringilla ut. Arcu dui vivamus arcu felis bibendum ut tristique.",
+    "prices": [
+      "$80/hour weekday",
+      "$90/hour weekday"
+    ]
+  },
+  {
+    "title": "ONE TIME TUMMY TIME",
+    "duration": "45 MINUTES",
+    "description": "Mauris in aliquam sem fringilla ut. Arcu dui vivamus arcu felis bibendum ut tristique.",
+    "prices": [
+      "$65 weekday",
+      "$75 weekday"
+    ]
+  },
+  {
+    "title": "HOW TO WEAR YOUR LITTLE ONE",
+    "duration": "30 MINUTES",
+    "description": "Mauris in aliquam sem fringilla ut. Arcu dui vivamus arcu felis bibendum ut tristique.",
+    "prices": [
+      "$50 weekday",
+      "$60 weekday"
+    ]
+  },
+  {
+    "title": "MOTHERS TRIBE",
+    "duration": "90 MINUTES",
+    "description": "Mauris in aliquam sem fringilla ut. Arcu dui vivamus arcu felis bibendum ut tristique.",
+    "prices": [
+      "$35 weekdays"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+@import './../vars.scss';
+
+form {
+  .input {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 16px;
+
+    @media (max-width: $max-mobile-width) {
+      width: 80%;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border: 1px solid $color-green-1;
+
+      &[type='submit'] {
+        border: 1px solid $color-blue-1;
+        background: $color-blue-1-a10;
+        width: 20%;
+      }
+    }
+
+    textarea {
+      resize: none;
+    }
+  }
+}
