@@ -1,0 +1,7 @@
+@import './../vars.scss';
+
+.links {
+  @media (max-width: $max-mobile-width) {
+    margin: 24px;
+  }
+}

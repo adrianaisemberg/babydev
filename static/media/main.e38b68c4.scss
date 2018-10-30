@@ -1,0 +1,19 @@
+@import './vars.scss';
+
+.content {
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.column {
+  @media (min-width: $min-desktop-width) {
+    max-width: $column-width;
+  }
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  color: $color-gray-1;
+  margin: 0;
+}

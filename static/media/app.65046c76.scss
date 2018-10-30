@@ -1,0 +1,11 @@
+@import './vars.scss';
+
+body {
+  margin: auto;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#root {
+  max-width: $min-desktop-width;
+  margin: auto;
+}

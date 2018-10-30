@@ -1,0 +1,30 @@
+@import './../vars.scss';
+
+.testimonials {
+  @media (max-width: $max-mobile-width) {
+    padding: 0 64px;
+  }
+
+  p {
+    font-style: italic;
+    text-align: justify;
+    color: $color-gray-2;
+  }
+}
+
+h1.page {
+  font-size: 3em;
+  position: sticky;
+  top: 0;
+  color: white;
+  background: $color-gray-1;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: $min-desktop-width) {
+    display: none;
+  }
+}

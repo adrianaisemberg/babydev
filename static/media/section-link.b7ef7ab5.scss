@@ -1,0 +1,78 @@
+@import './../vars.scss';
+
+.section-link {
+  font-size: 1.6em;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transition: background-color 0.5s ease-in-out;
+
+  &:hover {
+    background: $color-blue-1-a10;
+  }
+
+  @media (max-width: $max-mobile-width) {
+    position: relative;
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  @media (min-width: $min-desktop-width) {
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .image-container {
+    width: 60%;
+    position: relative;
+
+    @media (max-width: $max-mobile-width) {
+      width: 100%;
+    }
+  
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      color: white;
+      margin: 12px;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .gradient-background {
+    @media (max-width: $max-mobile-width) {
+      background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h1 {
+    width: 39%;
+    margin: 0;
+    text-align: center;
+    opacity: 0.75;
+  
+    @media (max-width: $max-mobile-width) {
+      position: absolute;
+      top: 0;
+      color: white !important;
+      opacity: 1;
+      font-size: 64px;
+      margin: 4px 12px;
+      text-align: initial;
+    }
+  }
+}
